@@ -1,5 +1,10 @@
 #!/bin/bash
 
+#Install nvidia driver-470
+
+
+
+
 # Taken from https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html#setting-up-nvidia-container-toolkit
 
 # Setup the package repository and the GPG key:
