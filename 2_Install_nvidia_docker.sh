@@ -1,9 +1,7 @@
 #!/bin/bash
 
 #Install nvidia driver-470
-
-
-
+sudo apt install -y nvidia-driver-470
 
 # Taken from https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html#setting-up-nvidia-container-toolkit
 
