@@ -1,6 +1,8 @@
 #!/bin/bash
 sudo apt install -y python3-pip
 pip install gdown
+echo 'export PATH="$PATH:$HOME/.local/bin"' >> ~/.bashrc
+source ~/.bashrc
 
 sudo apt install -y zip
 
