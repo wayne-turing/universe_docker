@@ -29,7 +29,7 @@ sudo apt-get update
 sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-compose-plugin
 
 # Verify that Docker Engine is installed correctly by running the hello-world image.
-sudo docker run hello-world
+# sudo docker run hello-world
 # Note: This command downloads a test image and runs it in a container. When the container runs, it prints a message and exits.
 
 # Post-installation steps for Linux
@@ -40,4 +40,5 @@ sudo groupadd docker
 # Add your user to the docker group.
 sudo usermod -aG docker $USER
 
+docker run hello-world
 
